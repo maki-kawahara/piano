@@ -34,5 +34,10 @@ void DrawMain()
     DrawText("Hello, world!!", -12*14/2, -44, kColorRed);
     Sleep(0.5f);
     DrawText("Hello, world!!", -12*14/2, -66, kColorGray);
+    
+    //赤い円を追加しました
+    for (int x = -100; x <= 100; x+=10) {
+        DrawCircle(x, 0, 150, kColorRed);
+    }
 }
 
