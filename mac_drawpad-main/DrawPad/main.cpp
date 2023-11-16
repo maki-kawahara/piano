@@ -43,4 +43,9 @@ void DrawMain()
     for (int x = -100; x <= 100; x+=10) {
         DrawCircle(x, 0, 150, kColorRed);
     }
+    //変更したところ
+    
+    DrawText("Hello, world!!", -12*14/2, 44, kColorWhite);
+    Sleep(0.6f);
+
 }
